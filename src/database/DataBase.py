@@ -70,7 +70,7 @@ class DataBase:
     def createAccount(self):
         data = {
             self.player.Token: {
-                "lowID":self.player.LowID,
+                #"lowID":self.player.LowID,
                 "name": self.player.name,
                 "gems": 99999,
                 "gold": 99999,
