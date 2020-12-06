@@ -5,6 +5,7 @@ from Packets.Messages.Client.CreateGameroom import CreateGameroom
 from Packets.Messages.Client.Exit import Exit
 from Packets.Messages.Client.QuitRoom import QuitRoom
 from Packets.Messages.Client.AskProfile import AskProfile
+from Packets.Messages.Client.TopGlobalPlayers import TopGlobalPlayers
 from Packets.Messages.Client.OpenClubMessage import OpenClubMessage
 from Packets.Messages.Client.ChangeMap import ChangeMap
 from Packets.Messages.Client.ChangeBrawlerInRoom import ChangeBrawlerInRoom
@@ -34,6 +35,7 @@ packets = {
     14363: ChangeMap,
     14354: ChangeBrawlerInRoom,
     14372: GameroomGadget,
+    14403: TopGlobalPlayers,
     14600: ChangeName,
     14777: DoNotDistrub
 }
