@@ -71,6 +71,8 @@ class Players:
 	Bot5N = None
 	useGadget = 1
 	DoNotDistrub = 0
+	LeaderboardType = 0
+	LeaderboardInfo = 0
 
 
 	def __init__(self, device):

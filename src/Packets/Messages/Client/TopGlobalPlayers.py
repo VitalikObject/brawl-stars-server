@@ -15,7 +15,8 @@ class TopGlobalPlayers(BSMessageReader):
         self.client = client
 
     def decode(self):
-        pass
+        self.player.LeaderboardType = self.read_Vint()
+        self.player.LeaderboardInfo = self.read_Vint()
 
     def process(self):
         TopGlobalPlayersData(self.client, self.player).send()
